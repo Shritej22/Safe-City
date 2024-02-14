@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebg">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/accident"
+        android:onClick="ACCIDENT"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="89dp"
+        android:text="@string/animal_abuse"
+        android:onClick="ANIMALABUSE"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="86dp"
+        android:text="@string/disaster"
+        android:onClick="DISASTER"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="85dp"
+        android:text="@string/crime"
+        android:onClick="CRIME"
+        android:textSize="33dp"/>
+
+</RelativeLayout>

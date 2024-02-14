@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageButton -->
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:contentDescription="Image Button"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"/>
+
+    <!-- TextView for Case Description -->
+    <TextView
+        android:id="@+id/textViewCaseDescription"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButton"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="43dp"
+        android:text="Case Description:"
+        android:textColor="#ED0A0A"
+        android:textSize="25dp" />
+
+    <!-- TextView to display case description -->
+
+    <TextView
+        android:id="@+id/textdescription"
+        android:layout_width="386dp"
+        android:layout_height="380dp"
+        android:layout_below="@id/textViewCaseDescription"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:text="Your case description goes here." />
+
+
+    <Button
+        android:id="@+id/buttoninsert"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#08A90E"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="593dp"
+        android:layout_marginEnd="134dp"
+        android:text="INSERT DATA"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/textphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="5dp"
+        android:ems="10"
+        android:textSize="20dp"
+        android:text="Contact:"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="7dp"
+        android:layout_toEndOf="@+id/imageButton"
+        android:text="Your Name:" />
+</RelativeLayout>
+

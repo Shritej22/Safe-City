@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bluebg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire Emergency : 101"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police Emergency : 100"
+        android:textSize="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambulance Emergency : 102"
+        android:textSize="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NDRF : 011-24363260"
+        android:textSize="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women Safety : 1091"
+        android:textSize="25dp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+

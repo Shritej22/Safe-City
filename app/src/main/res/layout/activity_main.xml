@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:rowCount="7"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:padding="16dp"
+    android:background="#18D4F4">
+
+    <!-- Welcome Message -->
+    <TextView
+        android:text="Welcome to Crime Report App"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#050505"
+        android:textColor="#F44336"/>
+
+    <!-- Report Crime -->
+    <Button
+        android:id="@+id/buttonCategory"
+        android:text="@string/report_crime"
+        android:gravity="center"
+        android:onClick="ReportCrime"
+        android:layout_gravity="fill_horizontal"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Helpline Number -->
+    <Button
+        android:id="@+id/buttonHelpline"
+        android:text="@string/helpline_number"
+        android:gravity="center"
+        android:onClick="HelplineNumber"
+        android:layout_gravity="fill_horizontal"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- View Report -->
+    <Button
+        android:id="@+id/buttonViewReport"
+        android:text="View Report"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- First Aid Techniques -->
+    <Button
+        android:id="@+id/buttonFirstAid"
+        android:text="First Aid Techniques"
+        android:onClick="FirstAid"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Empty View to Push Last Option to the Bottom -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Safe City -->
+    <TextView
+        android:text="SAFE CITY"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:textColor="#0C0C0C"/>
+</GridLayout>

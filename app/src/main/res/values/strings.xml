@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SafeCity100</string>
+    <string name="accident">ACCIDENT</string>
+    <string name="animal_abuse">ANIMAL ABUSE</string>
+    <string name="disaster">DISASTER</string>
+    <string name="crime">CRIME</string>
+    <string name="report_crime">Report Crime</string>
+    <string name="helpline_number">Helpline Number</string>
+    <string name="cpr">CPR</string>
+    <string name="fracture">Fracture</string>
+    <string name="fire">Fire</string>
+    <string name="snake_bite">SNAKE BITE</string>
+</resources>
