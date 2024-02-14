@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -44,8 +45,9 @@ public class LoginActivity extends AppCompatActivity {
         }
         else{
 
-            final ProgressDialog progressDialog = new ProgressDialog(this);
+            final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this);
             progressDialog.setMessage("Please Wait...");
+            Log.d("IN LOGIN","in login after process dialog");
 
             progressDialog.show();
             str_email = register_email.getText().toString().trim();
